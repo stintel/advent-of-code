@@ -4,7 +4,6 @@
 #include <string.h>
 
 int get_col(char* s) {
-	char c;
 	uint8_t col = 0;
 
 	for (uint8_t i = 0; i < 3; i++) {
