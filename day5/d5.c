@@ -57,6 +57,8 @@ int main() {
 			maxid = id;
 	}
 
+	fclose(fp);
+
 	printf("Highest seat id: %i\n", maxid);
 
 	for (int i = 0; i < 128; i++) {
